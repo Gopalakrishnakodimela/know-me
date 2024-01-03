@@ -1,0 +1,46 @@
+<div class="app-container">
+  <div class="headder">
+    <div class="profile-image">
+      <a
+        class="linkedInIcon"
+        href="https://www.linkedin.com/in/gopalakrishnakodimela"
+        target="_blank"
+        ><i class="fab fa-linkedin fa-1x"></i
+      ></a>
+      <a
+        class="profile-name"
+        href="javascript:void(0)"
+        (click)="navigateTo('home')"
+      >
+        <span class="logo"> | </span>Gopala Krishna Kodimela
+      </a>
+    </div>
+    <div class="menu">
+      <ul class="nav-list transistion">
+        <li>
+          <a
+            href="javascript:void(0)"
+            (click)="navigateExt('https://bit.ly/gopalaResume')"
+            ><i class="fas fa-arrow-circle-down"></i> Resume</a
+          >
+        </li>
+        <li>
+          <a href="javascript:void(0)" (click)="navigateTo('work')">Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="body-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div
+    class="footer"
+    (click)="navigateExt('https://www.linkedin.com/in/gopalakrishnakodimela')"
+  >
+    <a class="linkedin">Linked<i class="fab fa-linkedin fa-1x"></i></a>
+    <p class="copy-right">
+      <i class="far fa-copyright"></i> 2024 Gopala Krishna Kodimela. All rights
+      reserved.
+    </p>
+  </div>
+</div>
