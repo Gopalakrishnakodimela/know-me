@@ -87,6 +87,14 @@
     box-shadow: 0 4px 40px #df6f6f;
   }
 
+  .work3-image {
+    width: 20%;
+    float: right;
+    border-radius: 50%;
+    background: #100e17;
+    box-shadow: 0 4px 40px #df6f6f;
+  }
+
   .work1-image {
     width: 20%;
     float: left;
@@ -346,7 +354,7 @@
 
   .techSkill-image1 {
     width: 20%;
-    opacity: 0.5;
+    // opacity: 0.5;
     height: 135px;
     float: right;
     border-radius: 50%;
@@ -356,7 +364,7 @@
 
   .techSkill-image2 {
     width: 20%;
-    opacity: 0.5;
+    // opacity: 0.5;
     height: 135px;
     float: left;
     background: #100e17;
